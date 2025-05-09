@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Nunito";
+    transition: all 0.3s;
+}
+
+
+header {
+    background-color: #836e8a;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: black;
+    
+}
+
+.banner {
+    background-image: url(../img/lumabanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.banner h1 {
+    font-size: 2em;
+    
+}
+
+.banner a {
+    background-color: #b37ab3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.banner a:hover {
+    background-color: #796470;
+    transform: scale(1.2);
+}
