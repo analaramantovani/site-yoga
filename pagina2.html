@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula teste</title>
+     <link rel="stylesheet" href="static/css/style2.css">
+</head>
+<body>
+  <header class="topo">
+    <img src="static/img/logo.png" alt="Luma Logo" />
+    <nav class="menu">
+      <a href="index.html">Home</a> |
+      <a href="#sobre">Sobre</a> |
+      <a href="#aulas">Aulas</a> |
+      <a href="#instrutores">Instrutores</a> |
+      <a href="#bem-estar">Bem-estar</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="form-box">
+      <h2>Aula teste</h2>
+
+      <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="contato">Telefone ou e-mail</label>
+        <input type="text" id="contato" name="contato" required />
+
+        <label for="nome">Qual horário de aula?</label>
+    
+        <select name="horario">
+            <option value="segunda">Segunda às 08h</option>
+            <option value="quarta">Quarta às 19h</option>
+            <option value="sabado">Sábado às 9h</option>
+        </select>
+        <div class="botoes">
+          <button type="submit" class="enviar">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
